@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT k0, c16 from tbl1 WHERE c16 LIKE (k0+'%');
+SELECT k0, c16 from tbl1 WHERE c16 LIKE k0||'%';
