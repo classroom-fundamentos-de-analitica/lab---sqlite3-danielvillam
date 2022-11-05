@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT SUBSTR(c14,1,4) YEAR, COUNT() CANT FROM tbl1 WHERE YEAR=='2018';
+SELECT strftime('%Y', c14) YEAR, COUNT() CANT FROM tbl1 WHERE YEAR=='2018';
